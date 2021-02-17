@@ -347,6 +347,9 @@ body{
   body{
     background: #151515 url('../img/header_responsive.jpg') fixed center bottom;
   }
+  .header{
+    padding: 100px 30px 50px;
+  }
 }
 @media (max-width : 768px){
   .contact-form {
