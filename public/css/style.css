@@ -345,7 +345,7 @@ body{
 }
 @media (max-width: 1024px){
   body{
-    background-image: url('../img/header_responsive.jpg');
+    background: #151515 url('../img/header_responsive.jpg') fixed center bottom;
   }
 }
 @media (max-width : 768px){
