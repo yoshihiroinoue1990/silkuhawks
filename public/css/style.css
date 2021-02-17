@@ -343,6 +343,11 @@ body{
     margin: 0px;
   }
 }
+@media (max-width: 1024px){
+  body{
+    background-image: url('../img/header_responsive.jpg');
+  }
+}
 @media (max-width : 768px){
   .contact-form {
     width: 80%;
