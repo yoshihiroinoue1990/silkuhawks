@@ -25,7 +25,7 @@
       <h2 class="heading">ABOUT</h2>
       <p class="about-text">
         BMW...<br>
-        ここ日本において余り知られていないパーツ、チューニング内容,及び取り付けDIYを紹介していきます。特に、名機N54を載せた車両について紹介していきます。他にも、国産車、その他輸入車についても情報を発信していきます。
+        ここ日本において余り知られていないパーツ、チューニング内容、及び取り付けDIYを紹介していきます。特に、名機N54を載せた車両について紹介していきます。他にも、国産車、その他輸入車についても情報を発信していきます。
       </p>
       <p class="about-text">
         主にYouTubeとblogで紹介していきますので、是非ご覧ください。<br>DIYなどで、わからない事などあれば上記メールかtwitter,Instagramにてメッセージお待ちしております。
@@ -53,7 +53,7 @@
         </div>
         </div>
         <div class="work-box back animation">
-          <img class="work-image" src="{{ secure_asset('img/back.jpg') }}"" alt="335リア画像">
+          <img class="work-image" src="{{ secure_asset('img/back.jpg') }}" alt="335リア画像">
           <div class="work-description">
           <div class="work-description-inner">
           <p class="work-text">
