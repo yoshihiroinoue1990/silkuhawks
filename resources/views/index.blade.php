@@ -22,19 +22,16 @@
       </div>
     </header>
     <section class="about animation" id="about">
-      <h2 class="heading">ABOUT ME</h2>
+      <h2 class="heading">ABOUT</h2>
       <p class="about-text">
         BMW...<br>
         ここ日本において余り知られていないパーツ、チューニング内容,及び取り付けDIYを紹介していきます。特に、名機N54を載せた車両について紹介していきます。他にも、国産車、その他輸入車についても情報を発信していきます。<br>もちろん、車だけで無く旅や、多ジャンルにおける趣味、皆さんが真似したくなるようなDIYや情報もお伝えしていきたいと思っています。
       </p>
       <p class="about-text">
-        主にYouTubeそしてblogの方で紹介していくので、クリックの方お願いします。<br>DIYなどで、わからない事などあれば上記メールかtwitter,Instagramにてメッセージお待ちしております。
+        主にYouTubeとblogで紹介していきますので、是非ご覧ください。<br>DIYなどで、わからない事などあれば上記メールかtwitter,Instagramにてメッセージお待ちしております。
       </p>
       <p class="about-text">
-        そしてまだ先ではありますが、海外パーツを安心して購入していただけるShopの開設も考えておりますので、ぜひお楽しみに！
-      </p>
-      <p class="about-text">
-        YouTubeの方、チャンネル登録よろしくお願いします。
+        サイト下部のSTOREリンクにて海外パーツの販売もしています。<br>掲載していない部品、及純正部品についても輸入代行致しますので、是非お問い合わせください。
       </p>
     </section>
     <section class="works">
