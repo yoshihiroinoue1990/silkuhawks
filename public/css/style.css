@@ -15,7 +15,7 @@ body{
   font-family:'Raleway', "Hiragino Kaku Gothic ProN", Meiryo sans-serif;
 }
 .header{
-  padding: 300px 30px 200px;
+  padding: 30vh 30px 30vh;
 }
 .site-title-sub{
   margin: 0 0 30px;
@@ -343,13 +343,13 @@ body{
     margin: 0px;
   }
 }
-@media (max-width: 1024px){
+@media (max-width: 740px){
   body{
-    background: #151515 url('../img/header_mobil.jpg') top;
+    background: #151515 url('../img/header_res.jpg') top;
     background-size: contain;
   }
   .header{
-    padding: 100px 30px 50px;
+    padding: 10vh 20px 10vh;
   }
 }
 @media (max-width : 768px){
