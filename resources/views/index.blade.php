@@ -35,10 +35,10 @@
         ここ日本において余り知られていないパーツ、チューニング内容、及び取り付けDIYを紹介していきます。特に、名機と呼ばれるエンジン「N54」を載せた車両について紹介していきます
       </p>
       <p class="about-text">
-        主にYouTubeとblogで情報発信していきますので、是非下記リンクよりご覧ください。<br>サイト下部にはコンタクトフォームもご用意しております。twitterやInstagramからのメッセージもお待ちしております。
+        主にYouTubeとblogで情報発信していきますので、是非下記リンクよりご覧ください。
       </p>
       <p class="about-text">
-        掲載していない部品、及純正部品についても輸入代行致しますので、是非お問い合わせください。
+        掲載していない部品、及純正部品についても輸入代行致します。<br>サイト下部にはコンタクトフォーム、twitterやInstagramからのメッセージもお待ちしております。
       </p>
     </section>
     <section class="works">
@@ -153,52 +153,51 @@
     </section>
     <footer class="footer">
     </footer>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>
-$(function() {
-  var h = $(window).height();
-  
-  $('#wrap').css('display','none');
-  $('#loader-bg ,#loader').height(h).css('display','block');
-});
-  
-$(window).load(function () { //全ての読み込みが完了したら実行
-  $('#loader-bg').delay(900).fadeOut(800);
-  $('#loader').delay(600).fadeOut(300);
-  $('#wrap').css('display', 'block');
-});
-  
-//10秒たったら強制的にロード画面を非表示
-$(function(){
-  setTimeout('stopload()',10000);
-});
-  
-function stopload(){
-  $('#wrap').css('display','block');
-  $('#loader-bg').delay(900).fadeOut(800);
-  $('#loader').delay(600).fadeOut(300);
-}
-        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        var h = $(window).height();
+        $('#wrap').css('display','none');
+        $('#loader-bg ,#loader').height(h).css('display','block');
+      });
+      
+      $(window).load(function () { //全ての読み込みが完了したら実行
+        $('#loader-bg').delay(900).fadeOut(800);
+        $('#loader').delay(600).fadeOut(300);
+        $('#wrap').css('display', 'block');
+      });
+      
+      //10秒たったら強制的にロード画面を非表示
+      $(function(){
+        setTimeout('stopload()',10000);
+      });
+      
+      function stopload(){
+        $('#wrap').css('display','block');
+        $('#loader-bg').delay(900).fadeOut(800);
+        $('#loader').delay(600).fadeOut(300);
+      }
+    </script>
     <script src="lib/placeholders.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
       $(function(){
-	$(window).on('load scroll',function (){
-		$('.animation').each(function(){
-			//ターゲットの位置を取得
-			var target = $(this).offset().top;
-			//スクロール量を取得
-			var scroll = $(window).scrollTop();
-			//ウィンドウの高さを取得
-			var height = $(window).height();
-			//ターゲットまでスクロールするとフェードインする
-			if (scroll > target - height){
-				//クラスを付与
-				$(this).addClass('active');
-			}
-		});
-	});
-});
+  	  $(window).on('load scroll',function (){
+  		  $('.animation').each(function(){
+  			  //ターゲットの位置を取得
+  			  var target = $(this).offset().top;
+  			  //スクロール量を取得
+  			  var scroll = $(window).scrollTop();
+  			  //ウィンドウの高さを取得
+  			  var height = $(window).height();
+  			  //ターゲットまでスクロールするとフェードインする
+  			  if (scroll > target - height){
+  				  //クラスを付与
+  				  $(this).addClass('active');
+  			  }
+  		  });
+  	  });
+    });
     </script>
   </body>
   </html>
