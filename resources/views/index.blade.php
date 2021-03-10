@@ -10,10 +10,17 @@
         <link rel="stylesheet" href="{{ secure_asset('css/normalize.css') }}">
         {{-- この章で作成するＣＳＳを読み込みます --}}
         <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
+
   </head>
-  <body>
+    <div id="loader-bg">
+  <div id="loader">
+    <img src="{{ secure_asset('img/img-loading.gif') }}" width="80" height="80" alt="Now Loading..." />
+    <p>Now Loading...</p>
+  </div>
+</div>
+  <body id="wrap">
     <header class="header">
-      <p class="site-title-sub">BMW designer's portfolio</p>
+      <p class="site-title-sub">BMW Private Tuner</p>
       <h1 class="site-title">SHILKY HAWKS</h1>
       <p class="site-discription">Check out some of my works.</p>
       <div class="buttons">
@@ -22,16 +29,16 @@
       </div>
     </header>
     <section class="about animation" id="about">
-      <h2 class="heading">ABOUT</h2>
+      <h2 class="heading">ABOUT US</h2>
       <p class="about-text">
         BMW...<br>
-        ここ日本において余り知られていないパーツ、チューニング内容、及び取り付けDIYを紹介していきます。特に、名機N54を載せた車両について紹介していきます。他にも、国産車、その他輸入車についても情報を発信していきます。
+        ここ日本において余り知られていないパーツ、チューニング内容、及び取り付けDIYを紹介していきます。特に、名機と呼ばれるエンジン「N54」を載せた車両について紹介していきます
       </p>
       <p class="about-text">
-        主にYouTubeとblogで紹介していきますので、是非ご覧ください。<br>DIYなどで、わからない事などあれば上記メールかtwitter,Instagramにてメッセージお待ちしております。
+        主にYouTubeとblogで情報発信していきますので、是非下記リンクよりご覧ください。<br>サイト下部にはコンタクトフォームもご用意しております。twitterやInstagramからのメッセージもお待ちしております。
       </p>
       <p class="about-text">
-        サイト下部のSTOREリンクにて海外パーツの販売もしています。<br>掲載していない部品、及純正部品についても輸入代行致しますので、是非お問い合わせください。
+        掲載していない部品、及純正部品についても輸入代行致しますので、是非お問い合わせください。
       </p>
     </section>
     <section class="works">
@@ -146,6 +153,32 @@
     </section>
     <footer class="footer">
     </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+$(function() {
+  var h = $(window).height();
+  
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
+  
+$(window).load(function () { //全ての読み込みが完了したら実行
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+  $('#wrap').css('display', 'block');
+});
+  
+//10秒たったら強制的にロード画面を非表示
+$(function(){
+  setTimeout('stopload()',10000);
+});
+  
+function stopload(){
+  $('#wrap').css('display','block');
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}
+        </script>
     <script src="lib/placeholders.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
