@@ -345,7 +345,7 @@ body{
 }
 @media (max-width: 1024px){
   body{
-    background: #151515 url('../img/header_res.jpg') top;
+    background: #151515 url('../img/header_mobil.jpg') top;
     background-size: contain;
   }
   .header{
