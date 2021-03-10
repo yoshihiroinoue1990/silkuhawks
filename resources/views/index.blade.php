@@ -38,7 +38,7 @@
         主にYouTubeとblogで情報発信していきますので、是非下記リンクよりご覧ください。
       </p>
       <p class="about-text">
-        掲載していない部品、及純正部品についても輸入代行致します。<br>サイト下部にはコンタクトフォーム、twitterやInstagramからのメッセージもお待ちしております。
+        掲載していない部品、及純正部品についても輸入代行致します。<br>サイト下部のコンタクトフォーム、twitterやInstagramからのメッセージもお待ちしております。
       </p>
     </section>
     <section class="works">
